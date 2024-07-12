@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    position: relative;
+    /* padding: 0 100px 0 100px; */
+}
+
+.hero .cloud {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.hero .bot {
+    right: 100px;
+    top: 100px;
+}
