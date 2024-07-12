@@ -10,18 +10,49 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Common */
+.main-content {
+    /* width: 1075px;
+    max-width: calc(100% - 291px); */
+    margin: 0 auto 0;
+}
+/* Common */
+
+/* Hero */
 .hero {
     position: relative;
-    /* padding: 0 100px 0 100px; */
+    /* padding-top: 100px; */
+    height: 100vh;
+    text-align: center;
+    background-color: #e4f9f5;
 }
 
+
 .hero .cloud {
-    position: absolute;
     width: 200px;
     height: 200px;
 }
 
-.hero .bot {
-    right: 100px;
-    top: 100px;
+.hero .cloud.top {
+    position: absolute;
+    right: 145px;
 }
+
+.hero .info {
+    padding-top: 220px;
+}
+
+.hero .info .title {
+    font-family: "Playwrite HR", sans-serif;
+    font-size: 5.625rem;
+}
+
+/* 
+.hero .mountain {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    width: 500px;
+    height: 300px;
+} */
+/* Hero */
